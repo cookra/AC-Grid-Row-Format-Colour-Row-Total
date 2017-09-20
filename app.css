@@ -1,0 +1,119 @@
+h1 {
+    font-size: 13px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 0 0 15px 0;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+p {
+    font-size: 10px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.tables {
+    width: 100%;
+}
+
+#myTableNotYours th,
+td {
+    padding: 10px 5px;
+}
+
+#myTableNotYours th {
+    border-radius: 5px;
+    background: #4f4f4f;
+    text-align: left;
+    font-size: 1.8em;
+    border: 1px solid #1a1b1a;
+    padding: 8px
+}
+
+#myTableNotYours td {
+    text-align: left;
+    vertical-align: text-top;
+    padding: 3px
+}
+
+.raidColours {
+    display: inline-block;
+    box-shadow: 0 0 0 1px white;
+    border-radius: 4px;
+    height: 25px;
+    width: 25px;
+}
+
+.raidColours-blue {
+    background-color: #145FAC;
+}
+
+.raidColours-red {
+    background-color: #ff0c00;
+}
+
+.raidColours-amber {
+    background-color: #f3ca5e;
+}
+
+.raidColours-green {
+    background: #b3ee01
+}
+
+.raidColours-missing-severity {
+    background-color: white;
+    background: linear-gradient(white 50%, grey 50%);
+    background-size: 20% 100%;
+    background-repeat: repeat-x;
+    display: inline-block;
+    box-shadow: 0 0 0 1px grey;
+    border-radius: 4px;
+}
+
+.raidColours-missing-probability {
+    background-color: white;
+    background: linear-gradient(grey 50%, white 50%);
+    background-size: 20% 100%;
+    background-repeat: repeat-x;
+    display: inline-block;
+    box-shadow: 0 0 0 1px white;
+    border-radius: 4px;
+}
+
+.raidColours-missing-severity-probability {
+    background-color: white;
+    display: inline-block;
+    box-shadow: 0 0 0 1px white;
+    border-radius: 4px;
+}
+
+.custom-header-RAIDS .x-accordion-hd {
+    background: #00AEEF;
+    color: white;
+}
+
+.custom-header-LEGEND .x-accordion-hd {
+    background: #437EA0;
+    color: white;
+}
+
+.custom-header-RELEASE .x-accordion-hd {
+    background: #145FAC;
+    color: white;
+}
+
+.x-accordion-hd .x-panel-header-text {
+    color: white;
+    font-size: 15;
+    margin-left: 18px
+}
